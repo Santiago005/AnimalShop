@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Shop</title>
+    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="icon" href="../img/logo.png">
+
+    <script src="https://kit.fontawesome.com/22574538c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="../img/logo.png" alt="">
+            </div>
+
+            <div class="buscador">
+                <input type="search" name="txtname" id="txtname" placeholder="Buscar"/>
+                <span class="fa-solid fa-magnifying-glass search"></span>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" title="INICIO"><i class="fa-solid fa-house"></i></a></li>
+            <li>
+                <a href="perros/perros.html"><i class="fa-solid fa-dog"></i> Perros</a>
+                <ul>
+                    <li><a href="perros/alimentos.html"><i class="fa-solid fa-bowl-food"></i> Alimentos</a></li>
+                    <li><a href="perros/snacks.html"><i class="fa-solid fa-award"></i> Snacks</a></li>
+                    <li><a href="perros/higiene.html"><i class="fa-solid fa-soap"></i> Belleza e Higiene</a></li>
+                    <li><a href="perros/accesorios.html"><i class="fa-solid fa-tent"></i> Accesorios</a></li>
+                    <li><a href="perros/juguetes.html"><i class="fa-solid fa-baseball"></i> Juguetes</a></li>
+                    <li><a href="perros/medicamentos.html"><i class="fa-solid fa-tablets"></i> Medicamentos</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="gatos/gatos.html"><i class="fa-solid fa-cat"></i> Gatos</a>
+                <ul>
+                    <li><a href="gatos/alimentos.html"><i class="fa-solid fa-bowl-food"></i> Alimentos</a></li>
+                    <li><a href="gatos/snacks.html"><i class="fa-solid fa-award"></i> Snacks</a></li>
+                    <li><a href="gatos/higiene.html"><i class="fa-solid fa-soap"></i> Belleza e Higiene</a></li>
+                    <li><a href="gatos/accesorios.html"><i class="fa-solid fa-tent"></i> Accesorios</a></li>
+                    <li><a href="gatos/juguetes.html"><i class="fa-solid fa-baseball"></i> Juguetes</a></li>
+                    <li><a href="gatos/medicamentos.html"><i class="fa-solid fa-tablets"></i> Medicamentos</a></li>
+                </ul>
+            </li>
+
+            <li><a href="" title="CARRITO"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="form.html"><i class="fa-solid fa-message"></i> Contactanos</a></li>
+            <li><a href="login.html" title="LOGIN"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="titulo-form">
+            <h1>Formulario de Contacto</h1>
+        </div>
+
+        <center>
+
+            <div class="formulario">
+                <form action="">
+                    <div class="campos">
+                        
+                        <label for="nombre">Nombre:</label>
+                        <br>
+                        <input type="text" placeholder="Nombre" id="nombre">
+                    </div>
+                    
+                    <div class="campos">
+                        
+                        <label for="correo">Correo Electronico: </label>
+                        <br>
+                        <input type="email" placeholder="Correo" id="correo">
+                    </div>
+                    
+                    <div class="campos">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" rows="4" placeholder="Mensaje"></textarea>
+                    </div>
+
+                    <div class="boton">
+                        <input type="button" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </center>
+
+    </div>
+
+    <div class="pie-pagina">
+        <div class="section">
+            <h3>Sobre nosotros</h3>
+            <a href="">¿Quienes somos?</a><br /><br>
+            <a href="">Nuestros aliados</a><br /><br>
+            <a href="">Donaciones</a>
+        </div>
+        <div class="section">
+            <h3>Importante</h3>
+            <a href="">Terminos y condiciones</a><br /><br>
+            <a href="">preguntas frecuentes</a>
+        </div>
+        <div class="section">
+            <h3>Redes sociales</h3>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 AnimalShop. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

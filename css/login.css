@@ -1,0 +1,197 @@
+:root {
+    --Azul1: #0B212F;
+    --Azul2: #1363DF;
+    --Azul3: #47B5FF;
+    --Azul4: #DFF6FF;
+    --Blanco: #FFFFFF;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 40px;
+    background-color: var(--Blanco);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 999;
+    border-bottom: 2px #0B212F solid;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.regresar a {
+    text-decoration: none;
+    color: var(--Azul1);
+    font-size: 18px;
+}
+
+.regresar a:hover {
+    color: var(--Azul2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Blanco);
+}
+
+.container {
+    margin: 170px 0 0 0;
+    padding: 40px 0px;
+    background-color: var(--Azul4);
+}
+
+.titulo-form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo-form h1 {
+    color: var(--Azul1);
+}
+
+.formulario {
+    background-color: var(--Blanco);
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(2, 1, 2, 0.1);
+    /* text-align: left; */
+}
+
+.formulario .campos {
+    margin: 10px;
+}
+
+form label {
+    color: var(--Azul3);
+}
+
+form .campos input,
+textarea {
+    border: 1px #5561689b solid;
+    border-radius: 6px;
+    padding: 6px;
+    width: 80%;
+    margin-top: 5px;
+}
+
+form .campos input:hover {
+    border: 1px var(--Azul2) solid;
+}
+
+form .campos textarea:hover {
+    border: 1px var(--Azul2) solid;
+}
+
+.registro p {
+    color: var(--Azul1);
+    font-size: 14px;
+}
+
+.registro a{
+    text-decoration: none;
+    color: var(--Azul2);
+}
+
+.registro a:hover{
+    color: var(--Azul3);
+}
+
+form .boton input[type="button"] {
+    background-color: var(--Azul3);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+    cursor: pointer;
+    color: var(--Azul4);
+}
+
+form .boton input[type="button"]:hover {
+    background-color: var(--Azul2);
+}
+
+
+.pie-pagina {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 220px;
+    padding: 30px;
+    background-color: var(--Azul1);
+}
+
+.pie-pagina .section h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var(--Azul2);
+}
+
+.pie-pagina .section a {
+    text-decoration: none;
+    color: var(--Blanco);
+    font-size: 18px;
+}
+
+.pie-pagina .section a:hover {
+    color: var(--Azul3);
+}
+
+.pie-pagina .section a i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+footer {
+    background-color: var(--Azul2);
+    padding: 6px;
+    text-align: center;
+    color: var(--Blanco);
+}
+
+@media (min-width:320px) {
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    table,
+    p,
+    img {
+        padding-right: 1em;
+    }
+}
+
+@media (min-width:480px) {
+    /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
